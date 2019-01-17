@@ -9,12 +9,19 @@
 	<modules>
 		<module>demo001</module>
 		<module>demo002</module>
+		<module>demo003</module>
+		<module>demo004</module>
+		<module>demo005</module>
+		<module>demo006</module>
+		<module>demo007</module>
+		<module>demo009</module>
+		<module>demo008</module>
 	</modules>
 	
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.1.0.RELEASE</version>
+		<version>2.1.2.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
