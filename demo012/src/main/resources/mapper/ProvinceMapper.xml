@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yinww.demo.springboot2.demo012.mapper.ProvinceMapper">
+    <resultMap id="CityResultMap" type="com.yinww.demo.springboot2.demo012.domain.Province">
+        <id column="id" property="id"/>
+        <result column="name" jdbcType="VARCHAR" property="name"/>
+        <result column="code" jdbcType="VARCHAR" property="code"/>
+    </resultMap>
+
+    <insert id="saveProvince" useGeneratedKeys="true" keyProperty="id" parameterType="com.yinww.demo.springboot2.demo012.domain.Province">
+        insert into province (name, code) values(#{name}, #{code})
+    </insert>
+</mapper>

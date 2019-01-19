@@ -10,7 +10,6 @@
 		<config>src/main/java/com/yinww/demo/springboot2/demo005/Demo005Application.java</config>
 	</configs>
 	<autoconfigs>
-		<config>java:com.yinww.demo.springboot2.demo005.Demo005Application</config>
 	</autoconfigs>
 	<configSets>
 	</configSets>

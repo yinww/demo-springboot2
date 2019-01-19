@@ -1,6 +1,7 @@
 .project
 .classpath
 .settings
+.springBeans
 target
 dist
 build

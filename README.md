@@ -8,3 +8,6 @@ demo清单：
 7. 集成jasypt对数据库配置加密
 8. springboot集成sharding-jdbc
 9. springboot集成elastic-job
+10. springboot配置thymeleaf
+11. springboot配置freemarker
+12. 爬取国家统计局的省市县数据
